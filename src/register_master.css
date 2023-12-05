@@ -1,0 +1,43 @@
+.register_master form {
+    width: 50%;
+}
+
+.register_master h1 ~ p {
+    font-size: 12pt;
+    margin-bottom: 10px;
+}
+
+.register_master form {
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.register_master .input_text_teg {
+    width: 200px;
+}
+
+.register_master .page {
+    display: flex;
+}
+
+.register_master .left_page {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.register_master .right_page {
+    flex: 1;
+}
+
+.register_master .wrong_password {
+    color: #ff0000;
+    font-size: 10pt;
+}
+
+.register_master span {
+    left: 95%;
+}

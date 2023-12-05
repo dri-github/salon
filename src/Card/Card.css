@@ -1,0 +1,72 @@
+.card {
+    color: #ffffff;
+    margin-bottom: -120px;
+    margin-top: 2%;
+    margin-bottom: -165px;
+    height: 460px;
+}
+
+.coast-1 {
+    position: relative;
+    font-size: 30px;
+    color: #BA936B;
+    left: -110px;
+    top: -210px;
+}
+
+.coast-2 {
+    position: relative;
+    font-size: 30px;
+    color: #BA936B;
+    left: 115px;
+    top: -210px;
+}
+
+.card p {
+    position: relative;
+    text-align: justify;
+    left: 50%;
+    top: -230px;
+    width: 600px;
+    font-size: 20px;
+}
+
+.card p {
+    margin-left: -300px;
+}
+
+.card img {
+    position: relative;
+    width: 264px;
+    height: 264px;
+    padding-right: 10px;
+    border-right: 2px solid #ffffff;
+}
+
+.photo {
+    left: -570px;
+}
+
+.top {
+    position: relative;
+    font-size: 30px;
+    color: #BA936B;
+    left: 140px;
+    top: -240px;
+}
+
+.card:nth-child(3n+3) .photo {
+    left: -545px;
+}
+.card:nth-child(4n+4) .photo {
+    left: -513px;
+}
+.card:nth-child(5n+5) .photo {
+    left: -507px;
+}
+.card:nth-child(6n+6) .photo {
+    left: -591.5px;
+}
+.card:nth-child(7n+7) .photo {
+    left: -519px;
+}

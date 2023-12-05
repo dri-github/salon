@@ -1,0 +1,96 @@
+.nav-menu {
+    position: absolute;
+    height: 24px;
+    left: 31.5%;
+    top: 33px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.nav-links:hover {
+    color: #BA936B;
+}
+
+.nav-links:visited {
+    color: #ffffff;
+}
+
+.nav-links:visited:hover {
+    color: #BA936B;
+}
+
+.nav-menu > li {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 40px 0 40px;
+}
+
+.social {
+    list-style-type: none;
+    position: absolute;
+    width: 300px;
+    margin-left: 440px;
+    margin-top: -28px;
+}
+
+.social > li {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+}
+
+.vk {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.tg-image-hover, .inst-image-hover, .vk-image-hover {
+    position: absolute;
+    left: 0;
+}
+
+.tg-image-hover {
+    display: none;
+    position: absolute;
+    left: 73px;
+}
+
+.vk-image-hover {
+    display: none;
+    position: absolute;
+    left: 130px;
+}
+
+.inst-image-hover {
+    display: none;
+    position: absolute;
+    left: 195px;
+}
+
+.tg:hover .tg-image-hover {
+    display: inline-block;
+}
+
+.vk:hover .vk-image-hover {
+    display: inline-block;
+}
+
+.inst:hover .inst-image-hover {
+    display: inline-block;
+}
+
+@media (max-width: 1600px) {
+    .social {
+        display: none;
+    }
+}
+
+.nav-record-button:hover, .nav-record-button:visited:hover {
+    background-color: #BA936B;
+}
+
+.nav-record-button:visited {
+    background-color: #000000;
+}

@@ -1,0 +1,45 @@
+.special {
+    width: 400px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+.image-container:first-child .special {
+    width: 400px;
+    height: 400px;
+    margin-left: 100px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #151515;
+    color: #ffffff;
+    margin-left: 100px;
+    margin-bottom: 4px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.text-overlay:nth-child(1n+1) {
+    margin-left: 20px;
+}
+
+.image-container:hover .text-overlay {
+    opacity: 1;
+}
+
+h4 {
+    color: #BA936B;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
